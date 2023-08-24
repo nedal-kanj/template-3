@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="framwork/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="home position-relative" id="home">
+        <div class="overlay"></div>
+        <svg class="svg-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3D405B" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+        <div class="header fixed-top py-1">
+            <div class="container px-md-0">
+                <div class="navbar navbar-expand-lg">
+                    <div class="logo ms-lg-3 py-2">
+                        <a class="d-flex" href="./index.html"><img class="" src="imgs/logo.png" alt="">                               
+                            <div class="logo-text">
+                                <div class="">Tiya</div>
+                                <span class="">GOLF CLUB</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="my-links" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ms-5 my-list ms-auto">
+                            <li class="nav-item px-lg-2 py-2 ms-1"><a href="./index.html#home" class="nav-link active-color-text">HOME</a></li>
+                            <li class="nav-item px-lg-2 py-2 ms-1"><a href="./index.html#about" class="nav-link">About</a></li>
+                            <li class="nav-item px-lg-2 py-2 ms-1"><a href="./index.html#membership" class="nav-link">Membership</a></li>
+                            <li class="nav-item px-lg-2 py-2 ms-1"><a href="./index.html#events" class="nav-link">Events</a></li>
+                            <li class="nav-item px-lg-2 py-2 ms-1"><a href="./index.html#contact" class="nav-link">Contact Us</a></li>
+                            <li class="nav-item px-lg-2 py-2 ms-1 icon-drop"><a href="" class="nav-link">PAGES</a>
+                                <ul class="dropdown-1">
+                                    <li class="py-1 ps-1"><a href="./listing.html">Event Listing</a></li>
+                                    <li class="py-1 ps-1"><a href="./detail.html">Event Detail.</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="login-btn my-btn-2 nav-link mt-2 px-3 ms-5">Member Login</a>
+                    <a href="#my-links" data-bs-toggle="collapse" class=" d-lg-none bar-icon mt-3">
+                        <div class="bar-1"></div>
+                        <div class="bar-2"></div>
+                        <div class="bar-3"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="home-detail">
+                <h1>Event Detail.</h1>
+                <a href="" class="my-btn">Learn More</a>
+            </div>
+        </div>
+        <svg style="transform: rotate(180deg) translateY(-1px);" viewBox="0 0 1962 178" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="#ffffff" d="M 0 114 C 118.5 114 118.5 167 237 167 L 237 167 L 237 0 L 0 0 Z" stroke-width="0"></path> <path fill="#ffffff" d="M 236 167 C 373 167 373 128 510 128 L 510 128 L 510 0 L 236 0 Z" stroke-width="0"></path> <path fill="#ffffff" d="M 509 128 C 607 128 607 153 705 153 L 705 153 L 705 0 L 509 0 Z" stroke-width="0"></path><path fill="#ffffff" d="M 704 153 C 812 153 812 113 920 113 L 920 113 L 920 0 L 704 0 Z" stroke-width="0"></path><path fill="#ffffff" d="M 919 113 C 1048.5 113 1048.5 148 1178 148 L 1178 148 L 1178 0 L 919 0 Z" stroke-width="0"></path><path fill="#ffffff" d="M 1177 148 C 1359.5 148 1359.5 129 1542 129 L 1542 129 L 1542 0 L 1177 0 Z" stroke-width="0"></path><path fill="#ffffff" d="M 1541 129 C 1751.5 129 1751.5 138 1962 138 L 1962 138 L 1962 0 L 1541 0 Z" stroke-width="0"></path></svg>
+    </div>
+    <div class="fixed-menu">
+        <div class="px-4">
+            <div class="closed"><i class="fa-solid fa-x"></i></div>
+            <h5 class="mb-5">Member Login</h5>
+            <form class="" action="" method="post">
+                <label for="text">Membership No.</label>
+                <input class=" px-4 w-100 mb-4 mt-2" type="text" name="Membership No" id="text" placeholder="11002560">
+                <label for="password">Password</label>
+                <input class=" px-4 w-100 mt-2 mb-4" type="password" name="password" id="text" placeholder="Password">
+                <input type="checkbox" name="Remembed" id="Remembed">
+                <label class="d-inline m-2" for="Remembed">Remember me</label>
+                <input type="submit" value="Login" class="my-btn my-3 m-auto">
+                <a class="forget-bassword my-3" href="">Forgotten password?</a>
+                <div class="for-contact">
+                    <span>Any Questions?</span>
+                    <a class="ms-4" href="tel: 010-020-0340">010-020-0340</a>
+                </div>
+            </form>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3D405B" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+    </div>
+    <div class="detail-part-1 for-titel">
+        <h3>Tiya Club's Group Tournaments</h3>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="img mt-5">
+                    <img class="w-100 my-img" src="./imgs/professional-golf-player.jpg" alt="">
+                </div>
+            </div>
+            <div class="row justify-content-center ">
+                <div class="info-drtail col-10 col-md-7 col-lg-6 px-5">
+                    <h4 class="py-2">Golf Club based in Orlando</h4>
+                    <p>Tiya Golf Club is Bootstrap v5.3.0 HTML CSS template for your golf related websites. Anyone can download, edit and use this layout for commercial purposes.</p>
+                    <p>Tiya is 100% free CSS template provided by TemplateMo website. Please tell your friends about our website. Thank you for visiting.</p>    
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="box-location col-10 col-md-6 col-lg-5 py-5 px-5">
+                    <h5>Event Detail</h5>
+                    <div class="row">
+                        <div class="date col-12 col-lg-4">
+                            <span>Date:</span>
+                            <p>18 Mar 2048</p>
+                        </div>
+                        <div class="location col-12 col-lg-4">
+                            <span>Location:</span>
+                            <p>Tiya Golf Club</p>
+                        </div>
+                        <div class="ticket col-12 col-lg-4">
+                            <span>Ticket:</span>
+                            <p>$150</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6 py-5">
+                    <div class="world-map pt-5  row justify-content-center position-relative">
+                        <img class="w-100 col-12" src="./imgs/WorldMap.svg" alt="">
+                        <div class="col-8 col-md-7 col-lg-6 directions position-absolute">
+                            <u>London, United Kingdom</u>
+                            <a class="tel" href="tel: 010-020-0340">(020) 010-020-0340</a>
+                            <a class="email my-1" href="mailto:info@company.com">info@company.com</a>
+                            <a class="my-btn" href="">Directions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="logo ms-lg-3 py-2 mb-4 mb-lg-0">
+                        <a class="d-flex" href="./index.html"><img class="" src="imgs/logo.png" alt="">                               
+                            <div class="logo-text">
+                                <div class="">Tiya</div>
+                                <span class="">GOLF CLUB</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 px-lg-4">
+                            <h5>Join Us</h5>
+                            <div class="p-1 d-flex justify-content-between">
+                                <span class=".span">Mon-Fri</span><p>6:00 AM - 6:00 PM</p>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <span class=".span">Sat-Sun</span><p>6:30 AM - 8:30 PM</p>
+                            </div>
+                            <div class="rights mt-4">Copyright © 2048 Tiya Golf Club</div>
+                        </div>
+                        <div class="col-12 col-lg-6 p-0 social-icon">
+                            <div class="box-1 d-flex mt-5">
+                                <a href=""><i class="fa-brands fa-instagram my-icon mx-1"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter my-icon mx-1"></i></a>
+                                <a href=""><i class="fa-brands fa-whatsapp my-icon mx-1"></i></a>
+                            </div>
+                            <div class="d-flex box-2">
+                                <p class="mt-4 ps-2 mb-0 col-lg-7 me-3 me-lg-0">Design:</p>
+                                <a href="" class="design mt-4 mt-lg-0 col-lg-7 ps-lg-2">TemplateMo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#81B29A" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+    </div>
+    <script src="framwork/js/bootstrap.bundle.min.js"></script>
+    <script src="framwork/js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
